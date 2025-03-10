@@ -16,7 +16,7 @@ function Content() {
           <h1 className=" text-[20px] md:text-[50px] text-[#15202b] font-bold md:font-normal">
             Psikolog
           </h1>
-          <h1 className="font-extrabold text-[30px] md:text-[70px] text-[#ff7a00] ml-6">
+          <h1 className="font-bold text-[30px] md:text-[70px] text-[#ff7a00] ml-6">
             Ömer Ünal
           </h1>
         </div>
@@ -24,16 +24,16 @@ function Content() {
           className="font-bold text-[18px] md:text-[30px] text-[#15202b] max-w-[90%] text-center"
           sequence={[
             "Bireysel ve Online Danışmanlık",
-            1500,
+            700,
             "Çift Evlilik Danışmanlığı",
-            1500,
+            700,
             "Aile Danışmanlığı",
-            1500,
+            700,
             "Cinsel Terapi",
-            1500,
+            700,
           ]}
           wrapper="span"
-          speed={50}
+          speed={40}
           repeat={Infinity}
         />
         <div className="flex flex-col items-center mt-10 mb-10">

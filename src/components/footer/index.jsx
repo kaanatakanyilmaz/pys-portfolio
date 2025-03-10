@@ -18,9 +18,7 @@ function Footer() {
       className=" flex flex-col  items-center  shadow-md bg-[#263755] text-white py-8  px-4 border-t-3 border-[#d26400]"
     >
       <div className=" text-center">
-        <p className="mb-3">
-          "Psikolojik destek, daha iyi bir yaşamın başlangıcıdır."
-        </p>
+        <p className="mb-3">"Güçlü olmak, yardım istemekten geçer."</p>
         <div className="flex justify-center gap-0 sm:gap-2 md:gap-4">
           <Link to={"/skills"} className=" hover:bg-[#ff7a00] rounded-lg p-2">
             <a href="mailto:pskomerunal@gmail.com" className="text-lg">
