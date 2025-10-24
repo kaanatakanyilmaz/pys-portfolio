@@ -48,7 +48,9 @@ function Footer() {
           </Link>
         </div>
         <div className="mt-4">
-          <p>© 2025 Designed by Kaan Atakan Yılmaz.</p>
+          <a href="https://www.instagram.com/kaatakann/" target="_blank">
+            <p>© 2025 Designed by Kaan Atakan Yılmaz.</p>
+          </a>
         </div>
       </div>
     </motion.footer>

@@ -9,7 +9,7 @@ function ContentLeft() {
       initial={{ opacity: 0, x: -40 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      className="p-5 flex flex-col w-full sm:mb-14 "
+      className="p-5 sm:p-1 flex flex-col w-full sm:mb-2 "
     >
       <div className="flex flex-col  items-center">
         <Link
