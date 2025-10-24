@@ -6,8 +6,8 @@ import { PencilLine, Notebook } from "lucide-react";
 function ContentCenter() {
   return (
     <motion.div
-      initial={{ opacity: 0, x: 40 }}
-      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="p-5 flex flex-col w-full mb-14 "
     >
